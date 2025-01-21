@@ -13,7 +13,6 @@
 <script setup lang="ts">
 import { defineProps } from 'vue'
 
-// Définir les props avec leurs types
 defineProps<{
   avatar: string
   username: string

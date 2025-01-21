@@ -9,11 +9,10 @@
 <script setup lang="ts">
 import { defineProps } from 'vue';
 
-// Définir les props avec leurs types
 defineProps<{
   title: string;
   description: string;
-  isLast: boolean; // Indique si c'est le dernier élément
+  isLast: boolean;
 }>();
 </script>
 
